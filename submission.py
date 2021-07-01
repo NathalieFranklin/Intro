@@ -51,7 +51,7 @@ def stratalizer ():
 
     for row in file:
         audio_moth_header.append(row)
-        writer.writerow(audio_moth_header)
+    writer.writerow(audio_moth_header)
     for row in file['AudioMothCode']:
        duration = file['Duration'][index]
        time= str(file['Comment'][index])[12:14]
